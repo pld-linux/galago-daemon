@@ -43,6 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
+%attr(755,root,root) %{_libexecdir}/galago-daemon
 %{_datadir}/dbus-1/services/*.service
 %{_sysconfdir}/dbus-1/system.d/*
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dbus-1/system.d/galago-daemon.conf
