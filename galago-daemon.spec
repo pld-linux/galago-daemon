@@ -2,7 +2,7 @@ Summary:	Galago daemon
 Summary(pl):	Demon Galago
 Name:		galago-daemon
 Version:	0.5.0
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://www.galago-project.org/files/releases/source/galago-daemon/%{name}-%{version}.tar.gz
@@ -43,7 +43,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
-%attr(755,root,root) %{_libexecdir}/*
 %{_datadir}/dbus-1/services/*.service
 %{_sysconfdir}/dbus-1/system.d/*
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dbus-1/system.d/galago-daemon.conf
