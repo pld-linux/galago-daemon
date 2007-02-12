@@ -1,5 +1,5 @@
 Summary:	Galago daemon
-Summary(pl):	Demon Galago
+Summary(pl.UTF-8):   Demon Galago
 Name:		galago-daemon
 Version:	0.5.0
 Release:	3
@@ -19,9 +19,9 @@ Galago "presence" daemon is the center of all presence transactions
 for Galago. This service is automatically launched by D-BUS when
 needed.
     
-%description -l pl
-Demon stanu obecno∂ci Galago jest centrum wszystkich transakcji Galago.
-Us≥uga ta jest w razie potrzeby automatycznie uruchamiana przez D-BUS.
+%description -l pl.UTF-8
+Demon stanu obecno≈õci Galago jest centrum wszystkich transakcji Galago.
+Us≈Çuga ta jest w razie potrzeby automatycznie uruchamiana przez D-BUS.
 
 %prep
 %setup -q
