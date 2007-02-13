@@ -1,5 +1,5 @@
 Summary:	Galago daemon
-Summary(pl.UTF-8):   Demon Galago
+Summary(pl.UTF-8):	Demon Galago
 Name:		galago-daemon
 Version:	0.5.0
 Release:	3
