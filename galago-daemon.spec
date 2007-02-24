@@ -1,12 +1,12 @@
 Summary:	Galago daemon
 Summary(pl.UTF-8):	Demon Galago
 Name:		galago-daemon
-Version:	0.5.0
-Release:	3
+Version:	0.5.1
+Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://www.galago-project.org/files/releases/source/galago-daemon/%{name}-%{version}.tar.gz
-# Source0-md5:	cd150b3e27f1b6e03f854e6dc5db957a
+# Source0-md5:	fdb81f938f86f380b127158ebb542279
 URL:		http://www.galago-project.org/
 BuildRequires:	glib2-devel >= 1:2.12.1
 BuildRequires:	libgalago-devel >= 0.5.1
