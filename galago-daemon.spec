@@ -8,6 +8,7 @@ Group:		Applications/System
 Source0:	http://www.galago-project.org/files/releases/source/galago-daemon/%{name}-%{version}.tar.gz
 # Source0-md5:	fdb81f938f86f380b127158ebb542279
 URL:		http://www.galago-project.org/
+BuildRequires:	automake
 BuildRequires:	glib2-devel >= 1:2.12.1
 BuildRequires:	libgalago-devel >= 0.5.1
 BuildRequires:	pkgconfig
